@@ -6,10 +6,10 @@
 			</div>
 			<div class="details">
 				<div class="content">
-					<h3>Lorem</h3>
+					<h3>Swamp</h3>
 					<a href="https://github.com/maggi86/nav-example"><i class="bi bi-github"></i>
                     </a>
-					<a href="#"><img href="https://i.postimg.cc/Vvy7StrR/9055835-bxl-netlify-icon.png">
+					<a href="https://swamp-stardust-fc706b.netlify.app/"><span class="iconify" data-icon="file-icons:netlify"></span>
                     </a>
 				</div>
 			</div>
@@ -20,10 +20,10 @@
 			</div>
 			<div class="details">
 				<div class="content">
-					<h3>Lorem</h3>
+					<h3>BMI Calculator</h3>
 					<a href="https://github.com/maggi86/BMI-calculator"><i class="bi bi-github"></i>
                     </a>
-					<a href="https://graceful-crisp-3d45ef.netlify.app/"><img href="https://i.postimg.cc/Vvy7StrR/9055835-bxl-netlify-icon.png">
+					<a href="https://graceful-crisp-3d45ef.netlify.app/"><span class="iconify" data-icon="file-icons:netlify"></span>
                     </a>
 				</div>
 			</div>
@@ -34,10 +34,10 @@
 			</div>
 			<div class="details">
 				<div class="content">
-					<h3>Lorem</h3>
+					<h3>Anime Boys Website</h3>
 					<a href="https://github.com/maggi86/PropertyList"><i class="bi bi-github"></i>
                     </a>
-					<a href="https://property-anime-boys.netlify.app/"><img href="https://i.postimg.cc/Vvy7StrR/9055835-bxl-netlify-icon.png">
+					<a href="https://property-anime-boys.netlify.app/"><span class="iconify" data-icon="file-icons:netlify"></span>
                     </a>
 				</div>
 			</div>
@@ -48,10 +48,38 @@
 			</div>
 			<div class="details">
 				<div class="content">
-					<h3>Lorem</h3>
+					<h3>Wig Nation</h3>
 					<a href="https://github.com/maggi86/wigs"><i class="bi bi-github"></i>
                     </a>
-					<a href="#"><img href="https://i.postimg.cc/Vvy7StrR/9055835-bxl-netlify-icon.png">
+					<a href="#"><span class="iconify" data-icon="file-icons:netlify"></span>
+                    </a>
+				</div>
+			</div>
+		</div>
+		<div class="box">
+			<div class="thumb">
+				<img src="https://i.postimg.cc/ydX8BZD2/Screenshot-2022-07-21-161544.png">
+			</div>
+			<div class="details">
+				<div class="content">
+					<h3>To Do List</h3>
+					<a href="https://github.com/maggi86/toDoList"><i class="bi bi-github"></i>
+                    </a>
+					<a href="https://euphonious-puffpuff-e5c779.netlify.app/"><span class="iconify" data-icon="file-icons:netlify"></span>
+                    </a>
+				</div>
+			</div>
+		</div>
+		<div class="box">
+			<div class="thumb">
+				<img src="https://i.postimg.cc/yxHngwYk/Screenshot-2022-07-21-161915.png">
+			</div>
+			<div class="details">
+				<div class="content">
+					<h3>Hex to RGB</h3>
+					<a href="https://github.com/maggi86/hextoRGB"><i class="bi bi-github"></i>
+                    </a>
+					<a href="https://sweet-chaja-308937.netlify.app/"><span class="iconify" data-icon="file-icons:netlify"></span>
                     </a>
 				</div>
 			</div>
@@ -59,30 +87,56 @@
 	</div>
 </template>
 
-<style>
+<style scoped>
+:root {
+    --color-primary: #ef1e48;
+    --color-white: #e8e6e3;
+    --color-black: #030910;
+    --color-dark: #642330;
+    --color-gray: #9d8790;
+
+
+    --font-Poppins: 'Poppins', sans-serif;
+    --font-Raleway: 'Raleway', sans-serif;
+    --font-OpenSans: 'Open Sans', sans-serif;
+
+	--font-xlg: 90px;
+    --font-lg: 64px;
+    --font-md: 26px;
+    --font-sm: 15px;
+    --font-xs: 9px;
+
+    --size-lg: 1280px;
+    --size-md: 976px;
+    --size-sm: 768px;
+    --size-xs: 500px;
+	--size-ms: 200px;
+}
+
 body {
-	background: #32333b;
+	background: var(--color-gray);
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
 }
 
 .container {
-	position: absolute;
+	/* position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); */
 	display: flex;
 	width: 80%;
+	margin-top: 130px;
 	/*width: 1000px;*/
-	height: 500px;
+	/* height: 500px; */
 }
 
 .container .box {
 	position: relative;
 	width: 250px;
-	height: 500px;
-	background: #ccc;
+	 height: 360px;
+	background: var(--color-gray); 
 	transition: 0.5s;
 }
 
@@ -96,7 +150,7 @@ body {
 .container .box .details {
 	position: absolute;
 	width: 100%;
-	height: 250px;
+	height: 180px;
 	overflow: hidden;
 }
 
@@ -116,20 +170,28 @@ body {
 }
 
 .container .box:nth-child(1) .details {
-	background: #8553cb;
+	background: var(--color-gray);
 }
 
 .container .box:nth-child(2) .details {
-	background: #fe8f01;
+	background: var(--color-dark);
 }
 
 .container .box:nth-child(3) .details {
-	background: #79d400;
+	background: var(--color-gray);
 }
 
 .container .box:nth-child(4) .details {
-	background: #ff3b34;
+	background: var(--color-dark);
 }
+.container .box:nth-child(5) .details {
+	background: var(--color-gray);
+}
+
+.container .box:nth-child(6) .details {
+	background: var(--color-dark);
+}
+
 
 .container .box .details .content {
 	position: absolute;
@@ -148,20 +210,20 @@ body {
 
 .container .box .details .content .fas {
 	font-size: 70px;
-	color: #fff;
+	color: var(--color-black);
 }
 
 .container .box .details .content h3 {
 	margin: 0;
 	padding: 10px 0;
-	color: #fff;
+	color: var(--color-black);
 }
 
 .container .box .details .content a {
 	display: inline-block;
 	padding: 5px 20px;
-	color: #fff;
-	border: 2px solid #fff;
+	color: rgb(6, 5, 5);
+	border: 2px solid var(--color-black);
 	text-decoration: none;
 	transition: 0.5s;
 	border-radius: 20px;
@@ -174,7 +236,7 @@ body {
 
 .container .box .details .content a:hover {
 	color: #262626;
-	background: #fff;
+	background: rgb(200, 12, 12);
 }
 
 /*media queries */

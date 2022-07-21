@@ -108,6 +108,7 @@ export default {
 }
 section{
     margin-right: 20px;
+    margin-left: 20px;
 }
 * {
     font-family: 'Raleway', sans-serif;
