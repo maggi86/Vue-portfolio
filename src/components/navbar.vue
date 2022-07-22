@@ -72,7 +72,7 @@ scrollFunction() {
 </script>
 
 
-<style>
+<style >
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&family=Raleway:wght@700&display=swap');
 /* * {
     font-family: 'Raleway', sans-serif;

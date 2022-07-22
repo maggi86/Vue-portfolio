@@ -1,53 +1,29 @@
 <template>
-    <!-- <div id="form">
-        <h2>Feel free to Contact me</h2>
-
-        <form action="https://formspree.io/f/xayvrnkd" method="POST">
-            <label>
-                Name:
-                <input type="name" name="name" placeholder="Enter your Name">
-            </label>
-            <label>
-                Email Address:
-                <input type="email" name="email" placeholder="name@number.com">
-            </label>
-            <label>
-              Your Message:
-              <textarea name="message" rows="3"></textarea>
-            </label> -->
-  <!-- your other form fields go here -->
-            <!-- <button type="submit">Send</button>
-        </form>
-    </div> -->
+<body>
     <section class="contact" id="contact">
         <div class="container">
             <div class="heading text-center">
                 <h2>Contact
-                    <span> Us </span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    <br>incididunt ut labore et dolore magna aliqua.</p>
+                    <span> Me </span></h2>
+                    <p>I'd love to hear from you!
+                    FEEL FREE TO CONTACT ME! </p>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <br>incididunt ut labore et dolore magna aliqua.</p> -->
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div class="title">
-                        <h3>Contact detail</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                        <h2>Contact detail</h2>
+                        
                     </div>
                     <div class="content">
-                        <!-- Info-1 -->
                         <div class="info">
                             <i class="bi bi-telephone"></i>
                             <h4 class="d-inline-block">PHONE :
                                 <br>
-                                <span>+27 67 155 0947, +27 81 496 3622</span></h4>
+                                <span>+27 67 155 0947
+                                    <br>+27 81 496 3622</span></h4>
                         </div>
-                        <!-- Info-3 -->
-                        <div class="info">
-                            <i class="bi bi-geo-alt"></i>
-                            <h4 class="d-inline-block">ADDRESS :<br>
-                                <span></span></h4>
-                        </div>
-                        <!-- Info-2 -->
                         <div class="info">
                             <i class="bi bi-envelope"></i>
                             <h4 class="d-inline-block">EMAIL :
@@ -57,15 +33,13 @@
 
                     </div>
                 </div>
-
-                <div class="col-md-6">
-
+                <div id="Forrm" class="col-md-7">
                     <form action="https://formspree.io/f/xayvrnkd" method="POST">
                         <div class="row">
-                            <div class="col-sm-5 mx-6">
+                            <div class="col-sm-5 me-5">
                                 <input type="text" class="form-control" placeholder="Name" name="fname" required>
                             </div>
-                            <div class="col-sm-7">
+                            <div class="col-sm-6">
                                 <input type="email" class="form-control" placeholder="Email" name="email" required>
                                 
                             </div>
@@ -85,6 +59,7 @@
             </div>
         </div>
     </section>
+</body>
 </template>
 
 <script>
@@ -102,13 +77,19 @@ export default {
 </script>
 
 <style scoped>
-
+body{
+    background-color: var(--color-white);
+	width: 100%;
+	max-width: 100%;
+    padding-bottom:70px;
+}
 .title{
     padding-top: 40px;
 }
 section{
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 90px;
+    margin-left: 30px;
+
 }
 * {
     font-family: 'Raleway', sans-serif;
@@ -123,7 +104,6 @@ section{
     --color-black: #030910;
     --color-dark: #642330;
     --color-gray: #9d8790;
-
 
     --font-Poppins: 'Poppins', sans-serif;
     --font-Raleway: 'Raleway', sans-serif;
@@ -170,7 +150,7 @@ section{
     font-size: var(--font-sm);
     margin-bottom: 10px;
     margin:10px;
-    background: var(--color-white);
+    background: white;
     border: 0;
     border-radius: 10px;
 }
@@ -220,5 +200,11 @@ section{
 }
 .btn{
     margin-left:10px ;
+}
+
+@media (max-width: 900px) {
+	#Forrm{
+        position: absolute;
+    }
 }
 </style>
