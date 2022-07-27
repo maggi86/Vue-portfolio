@@ -36,7 +36,7 @@ export default createStore({
         name: "Liam Engel",
         description: "Meagan is someone who lights up the room with her personality and charisma. She is always willing to assist and always bring positivity to the mood, to have her in a company will be a win",
         title: "~~ Colleague",
-        image:``
+        image:`https://i.postimg.cc/ZYvTvX57/Liam.png`
       }
     ],
     resume: {
