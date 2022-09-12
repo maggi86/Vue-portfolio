@@ -1,7 +1,7 @@
 <template>
 <div id="space">
   <footer id="footer">
-        <p>Copyright &copy; 2022 MEAGAN </p>
+        <p>Copyright &copy;2022 MEAGAN </p>
     </footer>
 </div>
     

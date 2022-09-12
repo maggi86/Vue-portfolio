@@ -82,7 +82,7 @@ export default{
 
 :root {
     --color-primary: #ef1e48;
-    --color-white: #e8e6e3;
+    --color-white: #e7e8e3;
     --color-black: #000000;
     --color-dark: #642330;
     --color-gray: #c3c0c1;
@@ -244,10 +244,10 @@ h2{
   /* Make sure that all arrows are pointing leftwards */
   .box::before {
   left: 60px;
-  border: medium solid rgb(255, 255, 255);
+  border: medium solid var(--color-dark);
   border-width: 10px 10px 10px 0;
   border-radius: 1px;
-  border-color: transparent rgb(255, 255, 255) transparent transparent;
+  border-color: transparent var(--color-gray) transparent transparent;
   }
   /* Make sure all circles are at the same spot */
   .left::after, .right::after {

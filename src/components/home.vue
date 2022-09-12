@@ -6,8 +6,8 @@
                 <img src="https://i.postimg.cc/sDjnJCtj/Meagan-2.jpg" class="asideHeader-imgUserImage">
                   <h3 class="asideHeader-lblUserName"><span>M</span>eagan <span>W</span>illiams</h3>
                     <div class="asideHeader-socialsBox">
-                        <a href="#" class="asideHeader-btnSocial"><i class="bi-github"></i></a>
-                        <a href="#" class="asideHeader-btnSocial"><i class="bi-linkedin"></i></a>
+                        <a href="https://github.com/maggi86" class="asideHeader-btnSocial"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/meagan-williams-087920238/" class="asideHeader-btnSocial"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@
 .container-fluid {
     width: 100%;
     height: 100%;
-    background: url("https://i.postimg.cc/sDjnJCtj/Meagan-2.jpg") no-repeat;
+    background: url("https://i.postimg.cc/YqGsh95M/Screenshot-2022-08-19-133958-2.png") no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;

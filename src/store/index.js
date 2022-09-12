@@ -53,7 +53,7 @@ export default createStore({
          title: "Oude Molen Academy of Science and Technology.",
          description: "I studied Engineering Graphics and Design( EGD ) in High school."
        },
-       {
+       {  
          id: 3,
          date: "2017 - 2021",
          title: "Life Choices Academy of Coding.",

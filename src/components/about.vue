@@ -2,13 +2,13 @@
 <body>
   <div class="container">
     <div class="row">
-    	<div class=" about-content animated fadeIn scrollable" >
+    	<div class="col about-content animated fadeIn scrollable" >
     	  <h1 class="animated fadeIn one">ABOUT</h1>
     	  <div class="about-me" >
     	    <div class="animated fadeIn two">
     	      <p class="lead text-center fw-bold m-5">Hungry, driven and tenacious. That's how I'd describe myself. When I'm not busy coding and compiling, I'm spending time reading, watching a lot of tv or learning more about things I dont know. Below you'll find my key performance areas as well as my current skill stack, with <span>HTML</span>, <span>CSS</span>, <span>Mysql</span>, <span>JavaScript</span>, <span>Vue.js</span> and <span>Bootstrap</span> as my core skills.</p>
         		<p class="lead text-center fw-bold m-5">
-          	My hobbies include watching anime, old shows like friends and the big bang theory. I like reading books on my phone or online. I am not an artist but i like trying new things i see online like tie-dye or bleaching my clothes. Lastly I am always listening to music such as, Doja, Dax, Celine Dion, Khalid, Kiana Lede and Summer Walker.
+          	My hobbies include baking and cooking. I like reading books on my phone or online. Creating or thrifting clothing I like trying new things like tie-dye or bleaching my clothes. I enjoy music, not in the sense where I can make it but I love listening to music when doing things.
 					  </p>
     	    </div>
 					<div class="container text-center">
@@ -43,7 +43,7 @@
       		</div>
     	  </div>
     	</div>
-      <div class="about-panel-wrapper">
+      <div class="col about-panel-wrapper">
       	<div class=" about-panel animated fadeIn">
   	      <div class="perspective-container">
   		      <div class="zero photo-about animated fadeIn"> 
@@ -246,6 +246,10 @@ h1{
         font-size: 23px;
 
     }
+    .about-content, .about-panel {
+  max-width: 100%;
+	width: 100%;
+}
 
     .about-panel-wrapper{
         position: relative;

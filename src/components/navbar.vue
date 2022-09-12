@@ -49,7 +49,7 @@
 
 <script>
 
-export default {
+export default{
     methods: {
         ShowMenu() {
     let menu = document.querySelector(".container-aside"),
@@ -59,6 +59,7 @@ export default {
         btnShowMenu.innerHTML = "<i class=\"bi bi-x-lg\"></i>";
     else
         btnShowMenu.innerHTML = "<i class=\"bi bi-list\"></i>";
+        btnShowMenu.innerHTML = "<i class=\"bi bi-x-lg\"></i>";
             },
 scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -197,7 +198,7 @@ div.container {
     transition: color .5s;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     .container-aside {
         left: -500px;
     }

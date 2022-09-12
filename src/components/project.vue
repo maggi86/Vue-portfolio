@@ -3,12 +3,14 @@
 	<section>
     <div class="container mb-5" id="project">
         <!-- <div class="row mx-auto"> -->
-            <!-- <div class="col-md-12"> -->
+            <!-- <div class="col-md-12"> -->	
                 
-                <div class="box" v-for="project in projects">
-                <div class="thumb">
+                <div class="row" v-for="project in projects" :key="project" >
+                <div class="col">
+					<div class="card">
+						<div class="img">
                     <img :src="project.image">
-                </div>
+                        </div>
                 <div class="details">
                     <div class="content">
                         <h3>{{project.name}}</h3>
@@ -17,13 +19,15 @@
                         <a :href="project.netlify"><span class="iconify" data-icon="file-icons:netlify"></span>
                         </a>
                     </div>
-                    </div>
+                </div>
+			</div>
+			</div>
                 <!-- </div> -->
             <!-- </div> -->
         </div>
     </div>
     
-		<!-- <div class="box">
+		<!-- <div class="card">
 			<div class="thumb">
 				<img href="{{project.image[1]}}">
 			</div>
@@ -114,9 +118,12 @@ export default{
 	justify-content: center;
     margin-bottom: 300px;
 }
-.box{
+.card{
 	 margin: 5px; 
 }
+/* .col{
+	width:300px
+} */
 :root {
     --color-primary: #ef1e48;
     --color-white: #e8e6e3;
@@ -148,6 +155,10 @@ body {
 	padding: 0;
 	font-family: sans-serif;
 }
+img{
+	height:181px;
+	width:260px
+}
 
 .container {
 	/* position: absolute;
@@ -162,56 +173,56 @@ body {
 	/* height: 500px; */
 }
 
-.container .box {
+.container .card {
 	position: relative;
-	width: 250px;
+	width: 260px;
 	height: 360px;
 	background: var(--color-gray); 
 	transition: 0.5s;
 }
 
-.container .box:hover {
+.container .card:hover {
 	transform: scale(1.1);
 	z-index: 1;
 	box-shadow: 0 5px 20px var(--color-dark);
 }
 
-.container .box .thumb,
-.container .box .details {
+.container .card .img,
+.container .card .details {
 	position: absolute;
 	width: 100%;
 	height: 180px;
 	overflow: hidden;
 }
 
-.container .box:nth-child(odd) .thumb,
-.container .box:nth-child(even) .details  {
+.container .card:nth-child(odd) .img,
+.container .card:nth-child(even) .details  {
 	bottom: 0;
 	left: 0;
 }
 
-.container .box .thumb img {
+.container .card .thumb img {
 	width: 100%;
 	height: 100%;
 }
 
-.container .box .details {
+.container .card .details {
 	background: var(--color-dark);
 }
 
-.container .box:nth-child(1) .details {
+.container .card:nth-child(1) .details {
 	background: var(--color-gray);
 }
 
-.container .box:nth-child(3) .details {
+.container .card:nth-child(3) .details {
 	background: var(--color-gray);
 }
 
-.container .box:nth-child(5) .details {
+.container .card:nth-child(5) .details {
 	background: var(--color-gray);
 }
 
-.container .box .details .content {
+.container .card .details .content {
 	position: absolute;
 	top: calc(50% + 16px);
 	transform: translateY(-50%);
@@ -222,22 +233,22 @@ body {
 	box-sizing: border-box;
 }
 
-.container .box:hover .details .content {
+.container .card:hover .details .content {
 	top: calc(50%);
 }
 
-.container .box .details .content .fas {
+.container .card .details .content .fas {
 	font-size: 70px;
 	color: var(--color-black);
 }
 
-.container .box .details .content h3 {
+.container .card .details .content h3 {
 	margin: 0;
 	padding: 10px 0;
 	color: var(--color-black);
 }
 
-.container .box .details .content a {
+.container .card .details .content a {
 	display: inline-block;
 	padding: 5px 20px;
 	color: rgb(6, 5, 5);
@@ -248,18 +259,18 @@ body {
 	transform: scale(0);
 }
 
-.container .box:hover .details .content a {
+.container .card:hover .details .content a {
 	transform: scale(1);
 }
 
-.container .box .details .content a:hover {
+.container .card .details .content a:hover {
 	color: #ffffff;
 	background: rgb(0, 0, 0);
 }
 
 /*media queries */
 @media (max-width: 900px) {
-	.container .box{
+	.container .card{
         position: relative;
     }
 }
