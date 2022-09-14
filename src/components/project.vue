@@ -1,13 +1,13 @@
 <template>
 	<h2 class="text-center py-5">Projects</h2>
 	<section>
-    <div class="container mb-5" id="project">
+    <div class="container" id="project">
         <!-- <div class="row mx-auto"> -->
             <!-- <div class="col-md-12"> -->	
                 
-                <div class="row" v-for="project in projects" :key="project" >
-                <div class="col">
-					<div class="card">
+                <!-- <div class="row" >
+                <div class="col mx-auto"> -->
+					<div class="card" v-for="project in projects" :key="project" >
 						<div class="img">
                     <img :src="project.image">
                         </div>
@@ -21,11 +21,11 @@
                     </div>
                 </div>
 			</div>
-			</div>
+			<!-- </div> -->
                 <!-- </div> -->
-            <!-- </div> -->
-        </div>
-    </div>
+            </div>
+        <!-- </div>
+    </div> -->
     
 		<!-- <div class="card">
 			<div class="thumb">
@@ -157,7 +157,7 @@ body {
 }
 img{
 	height:181px;
-	width:260px
+	width:200px
 }
 
 .container {
@@ -175,7 +175,7 @@ img{
 
 .container .card {
 	position: relative;
-	width: 260px;
+	width: 300px;
 	height: 360px;
 	background: var(--color-gray); 
 	transition: 0.5s;
@@ -251,8 +251,8 @@ img{
 .container .card .details .content a {
 	display: inline-block;
 	padding: 5px 20px;
-	color: rgb(6, 5, 5);
-	border: 2px solid var(--color-black);
+	color: rgb(0, 0, 0);
+	border: 1px solid var(--color-black);
 	text-decoration: none;
 	transition: 0.5s;
 	border-radius: 20px;

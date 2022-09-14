@@ -106,10 +106,10 @@ export default createStore({
     },
     {
       id:4,
-      image:`https://i.postimg.cc/ydX8BZD2/Screenshot-2022-07-21-161544.png`,
-      name:"To Do List",
-      github:"https://github.com/maggi86/toDoList",
-      netlify:"https://euphonious-puffpuff-e5c779.netlify.app/"
+      image:`https://i.postimg.cc/rmtgdMyk/Screenshot-2022-09-14-101905.png`,
+      name:"M-Rings",
+      github:"https://github.com/maggi86/caps-frontend",
+      netlify:"https://m-jewels-324ec.web.app/"
     },
     {
       id:5,
