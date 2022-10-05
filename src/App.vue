@@ -51,9 +51,9 @@ export default {
 body{
   background-color: var(--color-white);
 }
-main{
+/* main{
   margin-left: 250px;
-}
+} */
 </style>
 
 

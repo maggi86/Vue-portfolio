@@ -40,13 +40,11 @@
                 </div>
             </div>
         </aside>
-        <main class=" container-fluid" style="height: 100vh">
-        <div id="landing">
-            <div class="container-small">
-                <p class="title">An Aspiring Web developer</p>
-                <p class="words">Welcome to my portfolio. I enjoy creating and designing colourful, fun, simplistic websites with a touch of minimalism. 
-                <br>I'm passionate about web development and I believe it's one of the most powerful resources to put yourself out there</p>
-            </div>
+        <main class="container-fluid" style="height: 100vh">
+        <div class="landing mx-auto text-center">
+            <h2>
+                Welcome to my porfolio
+            </h2>
         </div>
         </main>
     </div>
@@ -79,14 +77,15 @@
 .container-fluid {
     width: 100%;
     height: 100%;
-    background: url("https://i.postimg.cc/YqGsh95M/Screenshot-2022-08-19-133958-2.png") no-repeat;
+    background: url("https://i.postimg.cc/Mpfs3x2r/93eBhV.jpg") no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    padding-top:2%;
     right: 0;
-    background-color: rgba(37, 37, 37, 0.253);
+    color: var(--color-white);
     position: absolute;
     z-index: 2;
 }

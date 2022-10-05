@@ -1,65 +1,70 @@
 <template>
-<body>
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="heading text-center">
-                <h2>Contact
-                    <span> Me </span></h2>
-                    <p>I'd love to hear from you!
-                    FEEL FREE TO CONTACT ME! </p>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    <br>incididunt ut labore et dolore magna aliqua.</p> -->
-            </div>
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="title">
-                        <h2>Contact detail</h2>
-                        
-                    </div>
-                    <div class="content">
-                        <div class="info">
-                            <i class="bi bi-telephone"></i>
-                            <h4 class="d-inline-block">PHONE :
-                                <br>
-                                <span>+27 67 155 0947
-                                    <br>+27 81 496 3622</span></h4>
-                        </div>
-                        <div class="info">
-                            <i class="bi bi-envelope"></i>
-                            <h4 class="d-inline-block">EMAIL :
-                                <br>
-                                <span>meaganwilliams407@gmail.com</span></h4>
-                        </div>
 
+    <body>
+        <section class="contact" id="contact">
+            <div class="container  mx-auto text-center d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="heading text-center">
+                            <h2>Contact
+                                <span> Me </span>
+                            </h2>
+                            <p>I'd love to hear from you!
+                                FEEL FREE TO CONTACT ME! </p>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        <br>incididunt ut labore et dolore magna aliqua.</p> -->
+                        </div>
                     </div>
-                </div>
-                <div id="Forrm" class="col-md-7">
-                    <form action="https://formspree.io/f/xayvrnkd" method="POST">
-                        <div class="row">
-                            <div class="col-sm-5 me-5">
+                    <div class="col">
+                        <div class="title">
+                            <h2>Contact detail</h2>
+
+                        </div>
+                        <div class="content">
+                            <div class="info">
+                                <i class="bi bi-telephone"></i>
+                                <h4 class="d-inline-block">PHONE :
+                                    <br>
+                                    <span>+27 67 155 0947
+                                        <br>+27 81 496 3622</span>
+                                </h4>
+                            </div>
+                            <div class="info">
+                                <i class="bi bi-envelope"></i>
+                                <h4 class="d-inline-block">EMAIL :
+                                    <br>
+                                    <span>meaganwilliams407@gmail.com</span>
+                                </h4>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="Forrm" class="col">
+                        <form action="https://formspree.io/f/xayvrnkd" method="POST">
+                            <div class="row">
+
                                 <input type="text" class="form-control" placeholder="Name" name="fname" required>
-                            </div>
-                            <div class="col-sm-6">
+
                                 <input type="email" class="form-control" placeholder="Email" name="email" required>
-                                
-                            </div>
-                            <div class="col-sm-12">
+
+
                                 <input type="text" class="form-control" placeholder="Subject" name="subject" required>
+
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5" id="comment"
+                                        placeholder="Message"></textarea>
+                                </div>
                             </div>
-                            <div class="form-group">
-                            <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
-                        </div>
-                        </div>
-                        <!-- <div class="form-group">
+                            <!-- <div class="form-group">
                             <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
                         </div> -->
-                        <button class="btn btn-block" type="submit">Send Now!</button>
-                    </form>
+                            <button class="btn btn-block" type="submit">Send Now!</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-</body>
+        </section>
+    </body>
 </template>
 
 <script>
@@ -70,27 +75,30 @@ export default {
         return {
             name: "",
             email: "",
-        }     
+        }
     },
 
 };
 </script>
 
 <style scoped>
-body{
+body {
     background-color: var(--color-white);
-	width: 100%;
-	max-width: 100%;
-    padding-bottom:70px;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 70px;
 }
-.title{
+
+.title {
     padding-top: 40px;
 }
-section{
-    margin-right: 90px;
+
+section {
+    margin-right: 30px;
     margin-left: 30px;
 
 }
+
 * {
     font-family: 'Raleway', sans-serif;
     padding: 0;
@@ -120,6 +128,7 @@ section{
     --size-xs: 500px;
     --size-mi: 300px;
 }
+
 .contact {
     padding: 50px 0;
 }
@@ -149,7 +158,7 @@ section{
     padding: 25px;
     font-size: var(--font-sm);
     margin-bottom: 10px;
-    margin:10px;
+    margin: 10px;
     background: white;
     border: 0;
     border-radius: 10px;
@@ -179,6 +188,7 @@ section{
 .contact .content .info {
     margin-top: 30px;
 }
+
 .contact .content .info i {
     font-size: var(--font-md);
     padding: 0;
@@ -188,6 +198,7 @@ section{
     text-align: center;
     width: 20px;
 }
+
 .contact .content .info h4 {
     font-size: var(--font-sm);
     line-height: 1.4;
@@ -198,12 +209,13 @@ section{
     font-weight: var(--size-mi);
     color: var(--color-gray);
 }
-.btn{
-    margin-left:10px ;
+
+.btn {
+    margin-left: 10px;
 }
 
 @media (max-width: 900px) {
-	#Forrm{
+    #Form {
         position: absolute;
     }
 }

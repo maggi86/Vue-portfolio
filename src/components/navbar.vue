@@ -148,7 +148,7 @@ div.container {
     border: none;
     font-family: var(--font-OpenSans);
     font-size: var(--font-md);
-    background-color: var(--color-primary);
+    /* background-color: var(--color-white); */
     color: var(--color-white);
     cursor: pointer;
 } 
@@ -203,13 +203,15 @@ div.container {
         left: -500px;
     }
     
+    
     .containerMain-ShowMenu {
         display: block;
+        background-color:var(--color-dark);
     }
 
-    .containerMain-lblName, .containerMain-lblAbility {
+    /* .containerMain-lblName, .containerMain-lblAbility {
         margin-left: 10vw;
-    }
+    } */
 }
 
 </style>

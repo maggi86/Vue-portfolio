@@ -6,7 +6,7 @@
             <!-- <div class="col-md-12"> -->	
                 
                 <!-- <div class="row" >
-                <div class="col mx-auto"> -->
+                <div class="col mx-auto">  -->
 					<div class="card" v-for="project in projects" :key="project" >
 						<div class="img">
                     <img :src="project.image">
@@ -21,9 +21,9 @@
                     </div>
                 </div>
 			</div>
-			<!-- </div> -->
-                <!-- </div> -->
-            </div>
+			</div>
+                <!-- </div>
+            </div> -->
         <!-- </div>
     </div> -->
     
@@ -156,8 +156,8 @@ body {
 	font-family: sans-serif;
 }
 img{
-	height:181px;
-	width:200px
+	height:140px;
+	width:203px
 }
 
 .container {
@@ -176,7 +176,7 @@ img{
 .container .card {
 	position: relative;
 	width: 300px;
-	height: 360px;
+	height: 280px;
 	background: var(--color-gray); 
 	transition: 0.5s;
 }
@@ -191,7 +191,7 @@ img{
 .container .card .details {
 	position: absolute;
 	width: 100%;
-	height: 180px;
+	height: 140px;
 	overflow: hidden;
 }
 

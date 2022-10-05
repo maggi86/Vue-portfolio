@@ -2,48 +2,7 @@
 <body>
   <div class="container">
     <div class="row">
-    	<div class="col about-content animated fadeIn scrollable" >
-    	  <h1 class="animated fadeIn one">ABOUT</h1>
-    	  <div class="about-me" >
-    	    <div class="animated fadeIn two">
-    	      <p class="lead text-center fw-bold m-5">Hungry, driven and tenacious. That's how I'd describe myself. When I'm not busy coding and compiling, I'm spending time reading, watching a lot of tv or learning more about things I dont know. Below you'll find my key performance areas as well as my current skill stack, with <span>HTML</span>, <span>CSS</span>, <span>Mysql</span>, <span>JavaScript</span>, <span>Vue.js</span> and <span>Bootstrap</span> as my core skills.</p>
-        		<p class="lead text-center fw-bold m-5">
-          	My hobbies include baking and cooking. I like reading books on my phone or online. Creating or thrifting clothing I like trying new things like tie-dye or bleaching my clothes. I enjoy music, not in the sense where I can make it but I love listening to music when doing things.
-					  </p>
-    	    </div>
-					<div class="container text-center">
-        		<h3>SKILL STACK</h3>
-        		<br>
-        		<div class="row d-flex justify-content-center align-items-center flex-row">
-          		<div class="col-12 col-lg-3 rounded border border-1 p-3 me-5 mx-lg-5 my-3">
-            		<img src="https://i.postimg.cc/gjnyV8Hb/7422531-css3-css-file-development-icon.png">
-            		<p>CSS3</p>
-          	  </div>
-          		<div class="col-12 col-lg-3 rounded border border-1 p-3 me-5 mx-lg-5 my-3">
-            		<img src="https://i.postimg.cc/c4Ckh8LH/367627-html-html5-icon.png">
-            		<p>HTML5</p>
-          		</div>
-          		<div class="col-12 col-lg-3 rounded border border-1 p-3 me-5 mx-lg-5 my-3">
-            		<img src="https://i.postimg.cc/Kj230WLb/8666135-bootstrap-icon.png">
-            		<p>BOOTSTRAP</p>
-          		</div>
-              <div class="col-12 col-lg-3 rounded border border-1 p-3 me-5 mx-lg-5 my-3">
-            		<img src="https://i.postimg.cc/wvnYz4Kr/4691303-mysql-icon.png">
-            		<p>MYSQL</p>
-          	  </div>
-          		<div class="col-12 col-lg-3 rounded border border-1 p-3 me-5 mx-lg-5 my-3">
-            		<img src="https://i.postimg.cc/qvwCBSJg/8666390-js-square-icon.png">
-            		<p>JAVASCRIPT</p>
-          		</div>
-          		<div class="col-12 col-lg-3 rounded border border-1 p-3 me-5 mx-lg-5 my-3">
-            		<img src="https://i.postimg.cc/kgJBHsQC/9055767-bxl-vuejs-icon.png">
-            		<p>VUE.JS</p>
-          		</div>
-        		</div>
-      		</div>
-    	  </div>
-    	</div>
-      <div class="col about-panel-wrapper">
+      <div class="col-md-12 about-panel-wrapper">
       	<div class=" about-panel animated fadeIn">
   	      <div class="perspective-container">
   		      <div class="zero photo-about animated fadeIn"> 
@@ -52,14 +11,55 @@
   		        	<h3 class="about-info-name animated fadeInUp up-one">Meagan Williams</h3>
   		        	<div class="about-info-contact">
   		        		<h4 class="animated fadeInUp up-two"> An Aspiring Web developer</h4>
-  		        		<p class="animated fadeInUp up-three"></p>
-  		        		<a href="" class="animated fadeInUp up-four">meaganwilliams407@gmail.com</a>
+  		        		<a>meaganwilliams407@gmail.com</a>
   		        	</div>
   		        </div>
   		      </div>
   	      </div>
       	</div>
       </div>
+    	<div class="col about-content " >
+    	  <div class="about-me mx-auto text-center" >
+    	  <h1 class="animate fadeIn one mx-2">ABOUT</h1>
+    	    <div class="animated fadeIn two">
+    	      <p class="lead text-center fw-bold m-3">Hungry, driven and tenacious. That's how I'd describe myself. When I'm not busy coding and compiling, I'm spending time reading, watching a lot of tv or learning more about things I dont know. Below you'll find my key performance areas as well as my current skill stack, with <span>HTML</span>, <span>CSS</span>, <span>Mysql</span>, <span>JavaScript</span>, <span>Vue.js</span> and <span>Bootstrap</span> as my core skills.</p>
+        		<p class="lead text-center fw-bold m-3">
+          	My hobbies include baking and cooking. I like reading books on my phone or online. Creating or thrifting clothing I like trying new things like tie-dye or bleaching my clothes. I enjoy music, not in the sense where I can make it but I love listening to music when doing things.
+					  </p>
+    	    </div>
+					<div class="container text-center ms-4">
+        		<h3>SKILL STACK</h3>
+        		<br>
+        		<div class="row d-flex justify-content-center align-items-center flex-row">
+          		<div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+            		<img src="https://i.postimg.cc/gjnyV8Hb/7422531-css3-css-file-development-icon.png">
+            		<p>CSS3</p>
+          	  </div>
+          		<div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+            		<img src="https://i.postimg.cc/c4Ckh8LH/367627-html-html5-icon.png">
+            		<p>HTML5</p>
+          		</div>
+          		<div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+            		<img src="https://i.postimg.cc/Kj230WLb/8666135-bootstrap-icon.png">
+            		<p>BOOTSTRAP</p>
+          		</div>
+              <div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+            		<img src="https://i.postimg.cc/wvnYz4Kr/4691303-mysql-icon.png">
+            		<p>MYSQL</p>
+          	  </div>
+          		<div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+            		<img src="https://i.postimg.cc/qvwCBSJg/8666390-js-square-icon.png">
+            		<p>JAVASCRIPT</p>
+          		</div>
+          		<div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+            		<img src="https://i.postimg.cc/kgJBHsQC/9055767-bxl-vuejs-icon.png">
+            		<p>VUE.JS</p>
+          		</div>
+        		</div>
+      		</div>
+    	  </div>
+    	</div>
+      
     </div>
   </div>
 </body>
@@ -111,6 +111,7 @@ span{
 .about-content, .about-panel {
   max-width: 50%;
 	width: 50%;
+  margin-left:175px
 }
 
 .container {
@@ -119,7 +120,7 @@ span{
 	/* background-image: url("https://i.postimg.cc/sDjnJCtj/Meagan-2.jpg") no-repeat; */
   overflow-y: auto;
 overflow-x:hidden ;
-  height: 100vh;
+  height: 100%;
 	max-width: 100%;
 }
 
@@ -158,7 +159,7 @@ overflow-x:hidden ;
   width: 100%;
   letter-spacing: 3px;
   font-weight:500;
-	font-size: 2.5vw;
+	/* font-size: 2.5vw; */
 }
 
 .about-info-contact{
@@ -172,7 +173,7 @@ overflow-x:hidden ;
 .about-info-contact   h4{
   margin-bottom: 5px;
   font-weight:300;
-	font-size: 1.3vw;
+	/* font-size: 1.3vw; */
 }
 
 .about-info-contact p{
@@ -185,7 +186,7 @@ overflow-x:hidden ;
 .about-info-contact a {
 	margin-bottom: 5px;
   font-weight:300;
-	font-size: 1.2vw;
+	/* font-size: 1.2vw; */
 	color: var(--color-dark);
 }
 
@@ -237,23 +238,44 @@ h1{
   position: relative;
   top: 0;
   z-index: 50;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
+}
+@media screen and (max-width:620px){
+  /* .photo-about{
+    height:auto;
+  } */
 }
 
-@media all and (max-width: 987px) {
-    .about-me p{
-        font-size: 23px;
-
-    }
+@media screen and (max-width: 987px) {
+ h3{
+  font-size: 30px;
+ }
     .about-content, .about-panel {
   max-width: 100%;
+  
 	width: 100%;
 }
 
+/* .col-12{
+  display: grid;
+  grid-column: 3;
+} */
+.about-me{
+  padding-top:670px;
+  margin:20px;
+  width:100%;
+
+}
     .about-panel-wrapper{
         position: relative;
     }
 }
 
+@media screen and (max-width:1401px){
+  .about-content, .about-panel{
+    margin-left:0px
+  }
+
+}
 </style>
