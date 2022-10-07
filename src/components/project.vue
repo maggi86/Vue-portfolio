@@ -159,7 +159,7 @@ body {
 }
 img{
 	height:140px;
-	width:203px
+	width:230px
 }
 
 .container {
@@ -277,7 +277,8 @@ img{
 }
 @media screen and (max-width:1300px){
 	.container{
-		display:grid
+		display:grid;
+		margin-left: 60px;
 	}
 	img{
 	height:200px;

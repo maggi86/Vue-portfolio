@@ -4,7 +4,7 @@
             <div class="containerAside-header">
                 <div class="asideHeader-userInformations">
                 <img src="https://i.postimg.cc/sDjnJCtj/Meagan-2.jpg" class="asideHeader-imgUserImage">
-                  <h3 class="asideHeader-lblUserName">Meagan Williams</h3>
+                  <h3 class="asideHeader-lblUserName"><span class="caps">M</span>eagan <span class="caps">W</span>illiams</h3>
                     <div class="asideHeader-socialsBox">
                         <a href="https://github.com/maggi86" class="asideHeader-btnSocial"><i class="bi bi-github"></i></a>
                         <a href="https://www.linkedin.com/in/meagan-williams-087920238/" class="asideHeader-btnSocial"><i class="bi bi-linkedin"></i></a>
@@ -14,28 +14,28 @@
             <div class="containerAside-main">
                 <div class="asideMain-menuItemsBox">
                     <div class="asideMain-menuItem">
-                          <a href="/" class="mainMenu-btnMenuItem"><i class="bi bi-house"></i> <small
-                          class="mainMenu-lblMenuItem">Home</small></a>
+                          <a href="/" class="mainMenu-btnMenuItem"><i class="bi bi-house"></i> <span
+                          class="mainMenu-lblMenuItem">Home</span></a>
                     </div>
                     <div class="asideMain-menuItem">
-                        <a href="about" class="mainMenu-btnMenuItem"><i class="bi-person"></i> <small
-                        class="mainMenu-lblMenuItem">About</small></a>
+                        <a href="about" class="mainMenu-btnMenuItem"><i class="bi-person"></i> <span
+                        class="mainMenu-lblMenuItem">About</span></a>
                     </div>
                     <div class="asideMain-menuItem">
-                        <a href="resume" class="mainMenu-btnMenuItem"><i class="bi bi-file-earmark"></i> <small
-                        class="mainMenu-lblMenuItem">Resume</small></a>
+                        <a href="resume" class="mainMenu-btnMenuItem"><i class="bi bi-file-earmark"></i> <span
+                        class="mainMenu-lblMenuItem">Resume</span></a>
                     </div>
                     <div class="asideMain-menuItem">
-                        <a href="projects" class="mainMenu-btnMenuItem"><i class="bi bi-book"></i> <small
-                        class="mainMenu-lblMenuItem">Projects</small></a>
+                        <a href="projects" class="mainMenu-btnMenuItem"><i class="bi bi-book"></i> <span
+                        class="mainMenu-lblMenuItem">Projects</span></a>
                     </div>
                     <div class="asideMain-menuItem">
-                        <a href="contact" class="mainMenu-btnMenuItem"><i class="bi bi-envelope"></i> <small
-                        class="mainMenu-lblMenuItem">Contacts</small></a>
+                        <a href="contact" class="mainMenu-btnMenuItem"><i class="bi bi-envelope"></i> <span
+                        class="mainMenu-lblMenuItem">Contacts</span></a>
                     </div>
                     <div class="asideMain-menuItem">
-                        <a href="testimonial" class="mainMenu-btnMenuItem"><i class="bi bi-chat-left-quote"></i> <small
-                        class="mainMenu-lblMenuItem">Testimonial</small></a>
+                        <a href="testimonial" class="mainMenu-btnMenuItem"><i class="bi bi-chat-left-quote"></i> <span
+                        class="mainMenu-lblMenuItem">Testimonial</span></a>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@ scrollFunction() {
 </script>
 
 
-<style >
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&family=Raleway:wght@700&display=swap');
 /* * {
     font-family: 'Raleway', sans-serif;
@@ -112,7 +112,9 @@ html, body {
 a {
     text-decoration: none;
 }
-
+.caps{
+    font-size:30px
+}
 div.container {
     width: 100%;
     height: 100%;
@@ -130,6 +132,7 @@ overflow-x:hidden ;
     left: 0;
     top: 0;
     z-index: 4;
+    /* font-size: 30px; */
     background-color: var(--color-black);
     transition: left 1s;
 }
@@ -137,7 +140,18 @@ overflow-x:hidden ;
 .showMenu {
     left: 0 !important;
 }
+span{
+    font-size:20px;
+    font-weight:600;
+    margin-left:1 0px;
+    letter-spacing:1.7px;
+}
 
+h3{
+    font-size:20px;
+    font-weight:600;
+    letter-spacing:1.7px;
+}
 .containerMain-ShowMenu {
     display: none;
     position: fixed;
@@ -148,7 +162,7 @@ overflow-x:hidden ;
     border-radius: 50%;
     z-index: 5;
     border: none;
-    font-family: var(--font-OpenSans);
+    /* font-family: var(--font-OpenSans); */
     font-size: var(--font-md);
     /* background-color: var(--color-white); */
     color: var(--color-white);
@@ -171,9 +185,10 @@ overflow-x:hidden ;
 }
 
 .asideHeader-lblUserName {
-    font-family: var(--font-Poppins);
+    /* font-family: var(--font-Poppins); */
     font-size: var(--font-md);
-    font-weight: 600;
+    font-weight: 500;
+    font-size:30px;
     color: var(--color-white);
     margin-bottom: 20px;
 }
@@ -194,15 +209,18 @@ overflow-x:hidden ;
 
 .mainMenu-btnMenuItem {
     color: var(--color-gray);
-    font-family: var(--font-OpenSans);
+    /* font-family: var(--font-OpenSans); */
     font-size: var(--font-sm);
-    font-weight: 400;
+    font-weight: 500;
+    font-size:25px;
+    line-height:53px;
+    letter-spacing:3px;
     transition: color .5s;
 }
 
 @media screen and (max-width: 1400px) {
     .container-aside {
-        left: -50px;
+        left: -100%;
     }
     
     

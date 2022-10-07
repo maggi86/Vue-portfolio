@@ -29,7 +29,7 @@
     	    </div>
 					<div class="container text-center ms-4">
         		<h3>SKILL STACK</h3>
-        		<br>
+        		<!-- <br> -->
         		<div class="row d-flex justify-content-center align-items-center flex-row">
           		<div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
             		<img src="https://i.postimg.cc/gjnyV8Hb/7422531-css3-css-file-development-icon.png">
@@ -65,7 +65,7 @@
 </body>
 </template>
 
-<style>
+<style scoped>
 
 :root {
     --color-primary: #ef1e48;
@@ -94,9 +94,9 @@
  
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  
+  line-height: 1.19;
   color: var(--color-gray);
   background-color: var(--color-white);
     width: 100%;
@@ -117,6 +117,9 @@ span{
 .container {
   margin: 0;
   padding: 0;
+  font-size: 25px;
+  font-weight:bold;
+  letter-spacing: 0.3px;
 	/* background-image: url("https://i.postimg.cc/sDjnJCtj/Meagan-2.jpg") no-repeat; */
   overflow-y: auto;
 overflow-x:hidden ;
@@ -136,6 +139,15 @@ overflow-x:hidden ;
 	height: 100vh;
   width:43%;
 }
+p {
+  font-size:23px;
+  /* font-weight: bold; */
+}
+h3{
+  font-size:35px;
+  font-weight:bold;
+  margin-top:20px;
+}
 
 .about-panel .photo-about{
 		position:relative;
@@ -146,7 +158,8 @@ overflow-x:hidden ;
 	}
 
 .about-info{
-	font-family: "Montserrat";
+	/* font-family: "Montserrat"; */
+  font-weight:bold;
   position: absolute;
   z-index: 100100;
   top:50%;
@@ -157,8 +170,8 @@ overflow-x:hidden ;
 }
 .about-info-name{
   width: 100%;
-  letter-spacing: 3px;
-  font-weight:500;
+  letter-spacing: 5px;
+  font-weight:800;
 	/* font-size: 2.5vw; */
 }
 
@@ -172,21 +185,22 @@ overflow-x:hidden ;
 
 .about-info-contact   h4{
   margin-bottom: 5px;
-  font-weight:300;
+  font-weight:500;
 	/* font-size: 1.3vw; */
 }
 
 .about-info-contact p{
 	font-size: 1.2vw;
-  font-weight: 100;
+  font-weight: 400;
   margin-top: 10px;
   margin-bottom: 0
 }
 		
 .about-info-contact a {
 	margin-bottom: 5px;
-  font-weight:300;
-	/* font-size: 1.2vw; */
+  font-weight:600;
+	font-size: 27px;
+  letter-spacing: 4px;
 	color: var(--color-dark);
 }
 

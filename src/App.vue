@@ -48,7 +48,11 @@ export default {
     --size-xs: 500px;
 	--size-ms: 200px;
 }
+
 body{
+  font-family: 'Annie Use Your Telescope', cursive;
+  /* font-weight:bold; */
+  letter-spacing:1px;
   background-color: var(--color-white);
 }
 /* main{

@@ -1,6 +1,6 @@
 <template>
     <div class="container vw-50">
-        <aside class="container-aside">
+        <!-- <aside class="container-aside">
             <div class="containerAside-header">
                 <div class="asideHeader-userInformations">
                 <img src="https://i.postimg.cc/sDjnJCtj/Meagan-2.jpg" class="asideHeader-imgUserImage">
@@ -13,10 +13,7 @@
             </div>
             <div class="containerAside-main">
                 <div class="asideMain-menuItemsBox">
-                    <!-- <div class="asideMain-menuItem">
-                        <a href="home" class="mainMenu-btnMenuItem"><i class="bi-house"></i> <span
-                        class="mainMenu-lblMenuItem">Home</span></a>
-                    </div> -->
+                   
                     <div class="asideMain-menuItem">
                         <a href="about" class="mainMenu-btnMenuItem"><i class="bi-person"></i> <span
                         class="mainMenu-lblMenuItem">About</span></a>
@@ -39,29 +36,24 @@
                     </div>
                 </div>
             </div>
-        </aside>
+        </aside> -->
         <main class="container-fluid" style="height: 100vh">
         <div class="landing mx-auto text-center">
             <h2>
-                Welcome to my porfolio
+                <span class="caps">W</span>ELCOME TO MY PORTFOLIO
             </h2>
         </div>
         </main>
     </div>
 </template>
 
-<style>
+<style scoped>
 :root {
     --color-primary: #ef1e48;
     --color-white: #e8e6e3;
     --color-black: #030910;
     --color-dark: #642330;
     --color-gray: #9d8790;
-
-
-    --font-Poppins: 'Poppins', sans-serif;
-    --font-Raleway: 'Raleway', sans-serif;
-    --font-OpenSans: 'Open Sans', sans-serif;
 
     --font-lg: 64px;
     --font-md: 26px;
@@ -106,8 +98,16 @@
 .container-small span{
     color: var(--color-primary);
 }
-
-
+.caps{
+    font-size:40px;
+    font-weight:700;
+}
+h3{
+    font-weight:700;
+}
+/* span{
+    font-weight:500
+} */
 .title{
     font-size: var(--font-md); 
     font-weight: var(--size-lg);
@@ -127,13 +127,15 @@
 }
 
 .containerMain-lblAbility {
-    font-family: var(--font-Poppins);
+    /* font-family: var(--font-Poppins); */
     font-size: var(--font-md);
     font-weight: 400;
 }
 
 .containerMain-lblAbility span {
     border-bottom: 3px solid var(--color-primary);
+    /* font-weight:500; */
+    font-size:30px
 }
 
 .containerMain-ShowMenu {
@@ -147,7 +149,7 @@
     border-radius: 50%;
     z-index: 5;
     border: none;
-    font-family: var(--font-OpenSans);
+    /* font-family: var(--font-OpenSans); */
     font-size: var(--font-md);
     background-color: var(--color-primary);
     color: var(--color-white);
@@ -185,7 +187,7 @@
 
 .mainMenu-btnMenuItem {
     color: var(--color-gray);
-    font-family: var(--font-OpenSans);
+    /* font-family: var(--font-OpenSans); */
     font-size: var(--font-sm);
     font-weight: 400;
     transition: color .5s;
