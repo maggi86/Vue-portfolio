@@ -24,7 +24,7 @@
     	    <div class="animated fadeIn two">
     	      <p class="lead text-center fw-bold m-3">Hungry, driven and tenacious. That's how I'd describe myself. When I'm not busy coding and compiling, I'm spending time reading, watching a lot of tv or learning more about things I dont know. Below you'll find my key performance areas as well as my current skill stack, with <span>HTML</span>, <span>CSS</span>, <span>Mysql</span>, <span>JavaScript</span>, <span>Vue.js</span> and <span>Bootstrap</span> as my core skills.</p>
         		<p class="lead text-center fw-bold m-3">
-          	My hobbies include baking and cooking. I like reading books on my phone or online. Creating or thrifting clothing I like trying new things like tie-dye or bleaching my clothes. I enjoy music, not in the sense where I can make it but I love listening to music when doing things.
+          	My hobbies include baking and cooking. I like reading books on my phone or online. I like trying new things such as food and activities. I enjoy music, not in the sense where I can make it but I love listening to music when doing things.
 					  </p>
     	    </div>
 					<div class="container text-center ms-4">

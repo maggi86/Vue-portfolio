@@ -120,7 +120,9 @@ div.container {
 }
 
 .container-aside {
-    width: 15%;
+    width: 12%;
+    overflow-y: auto;
+overflow-x:hidden ;
     max-width: 300px;
     min-width: 250px;
     height: 100%;
@@ -200,7 +202,7 @@ div.container {
 
 @media screen and (max-width: 1400px) {
     .container-aside {
-        left: -500px;
+        left: -50px;
     }
     
     

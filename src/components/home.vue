@@ -89,6 +89,9 @@
     position: absolute;
     z-index: 2;
 }
+.container-aside {
+    width: 12%;
+}
 
 .container-small{
     display: flex;
@@ -135,6 +138,7 @@
 
 .containerMain-ShowMenu {
     display: none;
+    
     position: fixed;
     top: 10px;
     right: 10px;

@@ -37,6 +37,13 @@ export default createStore({
         description: "Meagan is someone who lights up the room with her personality and charisma. She is always willing to assist and always bring positivity to the mood, to have her in a company will be a win",
         title: "~~ Colleague",
         image:`https://i.postimg.cc/ZYvTvX57/Liam.png`
+      },
+      {
+        id:6,
+        name: "Ra'ees Benny",
+        description: "Meagan is a great person to work with and be around with. When we were in a 4 person group she always brought the best out of all of us and that helped us finished the project. She is a great asset to have on a team and as a friend.",
+        title: "~~ Colleague",
+        image:`https://i.postimg.cc/ZYvTvX57/Liam.png`
       }
     ],
     resume: {

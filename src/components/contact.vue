@@ -21,14 +21,18 @@
 
                         </div>
                         <div class="content">
+                        <div class="row">
+
                             <div class="info">
                                 <i class="bi bi-telephone"></i>
-                                <h4 class="d-inline-block">PHONE :
+                                <h4 class="d-inline-block ms-5 ps-3">PHONE :
                                     <br>
                                     <span>+27 67 155 0947
                                         <br>+27 81 496 3622</span>
                                 </h4>
-                            </div>
+                            </div></div>
+                        
+                            <div class="row">
                             <div class="info">
                                 <i class="bi bi-envelope"></i>
                                 <h4 class="d-inline-block">EMAIL :
@@ -36,12 +40,12 @@
                                     <span>meaganwilliams407@gmail.com</span>
                                 </h4>
                             </div>
-
                         </div>
+                    </div>
                     </div>
                     <div id="Forrm" class="col">
                         <form action="https://formspree.io/f/xayvrnkd" method="POST">
-                            <div class="row">
+                            <div class="row me-4">
 
                                 <input type="text" class="form-control" placeholder="Name" name="fname" required>
 
@@ -187,20 +191,26 @@ section {
 
 .contact .content .info {
     margin-top: 30px;
+    display:inline-flex;
 }
-
+i {
+    display:block;
+}
 .contact .content .info i {
     font-size: var(--font-md);
     padding: 0;
     margin: 0;
     color: var(--color-black);
     margin-right: 20px;
+    margin-left:200px;
     text-align: center;
     width: 20px;
 }
-
+    .contact .title {
+        margin-left:150px
+    }
 .contact .content .info h4 {
-    font-size: var(--font-sm);
+    /* font-size: var(--font-sm); */
     line-height: 1.4;
 }
 
@@ -213,10 +223,18 @@ section {
 .btn {
     margin-left: 10px;
 }
+@media screen and (max-width:1200px){
+    .contact .content .info i {
+        margin-left:130px
+    }
+    .contact .title {
+        margin-left:0
+    }
+}
 
-@media (max-width: 900px) {
-    #Form {
-        position: absolute;
+@media screen and (max-width:992px){
+    .contact .content .info i {
+        margin-left:0px
     }
 }
 </style>

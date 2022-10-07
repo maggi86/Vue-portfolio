@@ -49,6 +49,13 @@
                 aria-label="Slide 5"
                 class="circle"
               ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+                class="circle"
+              ></button>
             </div>
             <div class="carousel-inner pb-5">
                 <div class="carousel-item" v-bind:class="{ active: index === 0 }" v-for="(people,index) in people" :key="index" >
@@ -58,7 +65,7 @@
                   alt=""
                 />
                 <p>{{ people.name }}</p>
-                <p>{{ people.description }}</p>
+                <p class="description">{{ people.description }}</p>
                 </div>
             </div>
           </div>
@@ -120,7 +127,9 @@ export default{
     ;
 }
 
-
+.description{
+  width:300px;
+}
 button .circle{
     height: 10px;
     width:10px;

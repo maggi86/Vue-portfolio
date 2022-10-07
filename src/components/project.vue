@@ -7,7 +7,7 @@
                 
                 <!-- <div class="row" >
                 <div class="col mx-auto">  -->
-					<div class="card" v-for="project in projects" :key="project" >
+					<div class="card mx-auto" v-for="project in projects" :key="project" >
 						<div class="img">
                     <img :src="project.image">
                         </div>
@@ -116,9 +116,11 @@ export default{
 <style scoped>
 .container{
 	justify-content: center;
-    margin-bottom: 300px;
+    margin-left: 260px;
 }
 .card{
+	width: 300px;
+	height: 280px;
 	 margin: 5px; 
 }
 /* .col{
@@ -169,14 +171,13 @@ img{
 	width: 100%;
     margin-bottom: 59px;
 	/* margin-bottom: 130px; */
-	/*width: 1000px;*/
+	/* width: 1000px; */
 	/* height: 500px; */
 }
 
 .container .card {
 	position: relative;
-	width: 300px;
-	height: 280px;
+	
 	background: var(--color-gray); 
 	transition: 0.5s;
 }
@@ -230,7 +231,7 @@ img{
 	padding: 20px;
 	text-align: center;
 	transition: 0.5s;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 }
 
 .container .card:hover .details .content {
@@ -273,5 +274,22 @@ img{
 	.container .card{
         position: relative;
     }
+}
+@media screen and (max-width:1300px){
+	.container{
+		display:grid
+	}
+	img{
+	height:200px;
+	width:300px
+}
+.container .card .img,
+.container .card .details {
+	height: 200px;
+
+}
+.card{
+	height: 400px;
+}
 }
 </style>
