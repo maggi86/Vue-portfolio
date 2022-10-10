@@ -1,13 +1,16 @@
 <template>
-	<h2 class="text-center py-5">Projects</h2>
-	<section>
-    <div class="container" id="project">
+<section>
+	<h2 class="text-center py-5 mb-5">Projects</h2>
+	<div class="container" id="project">
+	
+    
         <!-- <div class="row mx-auto"> -->
             <!-- <div class="col-md-12"> -->	
                 
-                <!-- <div class="row" >
-                <div class="col mx-auto">  -->
-					<div class="card mx-auto" v-for="project in projects" :key="project" >
+                 <div class="row" > 
+                <div class="col mx-auto mx-5 px-5" v-for="project in projects" :key="project"> 
+					<div class="card"  >
+	
 						<div class="img">
                     <img :src="project.image">
                         </div>
@@ -22,84 +25,11 @@
                 </div>
 			</div>
 			</div>
-                <!-- </div>
-            </div> -->
+                </div>
+            </div>
         <!-- </div>
     </div> -->
-    
-		<!-- <div class="card">
-			<div class="thumb">
-				<img href="{{project.image[1]}}">
-			</div>
-			<div class="details">
-				<div class="content">
-					<h3>{{project.name[1]}}</h3>
-					<a href="{{project.github[1]}}"><i class="bi bi-github"></i>
-                    </a>
-					<a href="{{project.netlify[1]}}"><span class="iconify" data-icon="file-icons:netlify"></span>
-                    </a>
-				</div>
-			</div>
-		</div>
-		<div class="box">
-			<div class="thumb">
-				<img href="{{project.image[2]}}">
-			</div>
-			<div class="details">
-				<div class="content">
-					<h3>{{project.name[2]}}</h3>
-					<a href="{{project.github[2]}}"><i class="bi bi-github"></i>
-                    </a>
-					<a href="{{project.netlify[2]}}"><span class="iconify" data-icon="file-icons:netlify"></span>
-                    </a>
-				</div>
-			</div>
-		</div> -->
-	<!-- </div>
-	<div class="container mb-5">
-		<div class="box">
-			<div class="thumb">
-				<img href="{{project.image[3]}}">
-			</div>
-			<div class="details">
-				<div class="content">
-					<h3>{{project.name[3]}}</h3>
-					<a href="{{project.github[3]}}"><i class="bi bi-github"></i>
-                    </a>
-					<a href="{{project.netlify[3]}}"><span class="iconify" data-icon="file-icons:netlify"></span>
-                    </a>
-				</div>
-			</div>
-		</div>
-		<div class="box">
-			<div class="thumb">
-				<img href="{{project.image[4]}}">
-			</div>
-			<div class="details">
-				<div class="content">
-					<h3>{{project.name[4]}}</h3>
-					<a href="{{project.github[4]}}"><i class="bi bi-github"></i>
-                    </a>
-					<a href="{{project.netlify[4]}}"><span class="iconify" data-icon="file-icons:netlify"></span>
-                    </a>
-				</div>
-			</div>
-		</div>
-		<div class="box">
-			<div class="thumb">
-				<img href="{{project.image[5]}}">
-			</div>
-			<div class="details">
-				<div class="content">
-					<h3>{{project.name[5]}}</h3>
-					<a href="{{project.github[5]}}"><i class="bi bi-github"></i>
-                    </a>
-					<a href="{{project.netlify[5]}}"><span class="iconify" data-icon="file-icons:netlify"></span>
-                    </a>
-				</div>
-			</div>
-		</div>
-	</div> -->
+
 	</section>
 </template>
 
@@ -115,11 +45,11 @@ export default{
 
 <style scoped>
 .container{
-	justify-content: center;
+	/* justify-content: center; */
     margin-left: 260px;
 }
 .card{
-	width: 300px;
+	width: 240px;
 	height: 280px;
 	 margin: 5px; 
 }
@@ -128,7 +58,7 @@ export default{
 } */
 :root {
     --color-primary: #ef1e48;
-    --color-white: #e8e6e3;
+	---color-white: #aba8a482;
     --color-black: #030910;
     --color-dark: #642330;
     --color-gray: #9d8790;
@@ -152,16 +82,19 @@ export default{
 }
 
 body {
-	background: var(--color-gray);
+	
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	/* font-family: sans-serif; */
 }
 img{
-	height:140px;
-	width:230px
+	height:200px;
+	width:240px
 }
-
+section{
+background: var(--color-white);
+	background-image: url("https://i.postimg.cc/GpndwV4G/1544025-ddd4c.gif");
+}
 .container {
 	/* position: absolute;
 	top: 50%;
@@ -170,6 +103,7 @@ img{
 	display: flex;
 	width: 100%;
     margin-bottom: 59px;
+	
 	/* margin-bottom: 130px; */
 	/* width: 1000px; */
 	/* height: 500px; */
@@ -275,6 +209,11 @@ img{
         position: relative;
     }
 }
+@media screen and (max-width:1400px){
+.container{
+	margin-left:8%;
+}
+}
 @media screen and (max-width:1300px){
 	.container{
 		display:grid;
@@ -282,15 +221,18 @@ img{
 	}
 	img{
 	height:200px;
-	width:300px
+	width:250px
 }
 .container .card .img,
 .container .card .details {
 	height: 200px;
 
+	
+
 }
 .card{
-	height: 400px;
+	height: 380px;
+	width: 250px
 }
 }
 </style>

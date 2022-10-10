@@ -1,12 +1,13 @@
 <template>
-    <section class=" text-black py-5" id="testimonials">
+    <section class="text-black py-5" id="testimonials">
     <div class="container">
-      <h2 class="section-title">
-        <center>Testimonial</center>
+      <h2 class="section-title mx-auto text-center">
+        <h1>Testimonial</h1>
       </h2>
       <br />
       <section id="testimonials" class="vh-80">
-        <div class="container text-center p-5">
+        <div class="container text-center
+        ">
           <div
             id="carouselExampleIndicators"
             class="carousel slide"
@@ -61,11 +62,11 @@
                 <div class="carousel-item" v-bind:class="{ active: index === 0 }" v-for="(people,index) in people" :key="index" >
                     <img
                   :src="people.image"
-                  class="rounded-circle"
+                  class="rounded-circle pt-2 pb-2"
                   alt=""
                 />
-                <p>{{ people.name }}</p>
-                <p class="description">{{ people.description }}</p>
+                <p class="name">{{ people.name }}</p>
+                <p class="description mx-auto">{{ people.description }}</p>
                 </div>
             </div>
           </div>
@@ -87,7 +88,7 @@ export default{
 <style>
 :root {
     --color-primary: #ef1e48;
-    --color-white: #e8e6e3;
+    --color-white: #aba8a482;
     --color-black: #030910;
     --color-dark: #642330;
     --color-gray: #9d8790;
@@ -110,12 +111,24 @@ export default{
 	--size-ms: 200px;
 }
 #testimonials{
-  background-color:var(--background-color)
+  /* background-color:var(--color-white); */
+  background-image: url("https://i.postimg.cc/GpndwV4G/1544025-ddd4c.gif");
 }
+/* .container{
+margin-left:100px;
+} */
 .carousel-inner img{
   aspect-ratio: 1;
   object-fit: cover;
-  width: 300px;
+  width: 270px;
+  height:270px
+}
+.name{
+font-size:23px;
+font-weight:400;
+}
+.carousel-inner{
+  height:560px
 }
   .circle{
     width: 20px !important;

@@ -70,6 +70,7 @@
     width: 100%;
     height: 100%;
     background: url("https://i.postimg.cc/Mpfs3x2r/93eBhV.jpg") no-repeat;
+
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -98,10 +99,10 @@
 .container-small span{
     color: var(--color-primary);
 }
-.caps{
+/* .caps{
     font-size:40px;
     font-weight:700;
-}
+} */
 h3{
     font-weight:700;
 }

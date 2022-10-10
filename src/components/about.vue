@@ -69,7 +69,7 @@
 
 :root {
     --color-primary: #ef1e48;
-    --color-white: #e8e6e3;
+    --color-white: #aba8a482;
     --color-black: #030910;
     --color-dark: #642330;
     --color-gray: #9d8790;
@@ -96,12 +96,12 @@
 body {
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   
-  line-height: 1.19;
+  /* line-height: 1.19; */
   color: var(--color-gray);
   background-color: var(--color-white);
     width: 100%;
 	max-width: 100%;
-  
+  background-image: url("https://i.postimg.cc/GpndwV4G/1544025-ddd4c.gif");
 }
 
 span{
@@ -140,11 +140,11 @@ overflow-x:hidden ;
   width:43%;
 }
 p {
-  font-size:23px;
+  font-size:20px;
   /* font-weight: bold; */
 }
 h3{
-  font-size:35px;
+  font-size:30px;
   font-weight:bold;
   margin-top:20px;
 }
@@ -190,8 +190,8 @@ h3{
 }
 
 .about-info-contact p{
-	font-size: 1.2vw;
-  font-weight: 400;
+	font-size: 20px;
+  font-weight: 300;
   margin-top: 10px;
   margin-bottom: 0
 }
@@ -199,8 +199,8 @@ h3{
 .about-info-contact a {
 	margin-bottom: 5px;
   font-weight:600;
-	font-size: 27px;
-  letter-spacing: 4px;
+	font-size: 25px;
+  /* letter-spacing: 4px; */
 	color: var(--color-dark);
 }
 
@@ -208,6 +208,7 @@ h3{
   float:left;
   padding-top:30px;
   background: var(--color-white);
+  background-image: url("https://i.postimg.cc/GpndwV4G/1544025-ddd4c.gif");
   color:var(--color-dark);
 }
 

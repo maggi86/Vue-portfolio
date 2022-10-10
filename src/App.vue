@@ -26,7 +26,7 @@ export default {
 <style>
 :root {
     --color-primary: #ef1e48;
-    --color-white: #e8e6e3;
+    --color-white: #aba8a482;
     --color-black: #030910;
     --color-dark: #642330;
     --color-gray: #9d8790;
@@ -50,7 +50,7 @@ export default {
 }
 
 body{
-  font-family: 'Annie Use Your Telescope', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
   /* font-weight:bold; */
   letter-spacing:1px;
   background-color: var(--color-white);

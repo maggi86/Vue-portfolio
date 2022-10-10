@@ -140,17 +140,17 @@ overflow-x:hidden ;
 .showMenu {
     left: 0 !important;
 }
-span{
+/* span{
     font-size:20px;
     font-weight:600;
     margin-left:1 0px;
     letter-spacing:1.7px;
-}
+} */
 
 h3{
-    font-size:20px;
+    font-size:18px;
     font-weight:600;
-    letter-spacing:1.7px;
+    /* letter-spacing:1.7px; */
 }
 .containerMain-ShowMenu {
     display: none;
@@ -188,8 +188,8 @@ h3{
     /* font-family: var(--font-Poppins); */
     font-size: var(--font-md);
     font-weight: 500;
-    font-size:30px;
-    color: var(--color-white);
+    font-size:25px;
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -212,9 +212,9 @@ h3{
     /* font-family: var(--font-OpenSans); */
     font-size: var(--font-sm);
     font-weight: 500;
-    font-size:25px;
+    font-size:20px;
     line-height:53px;
-    letter-spacing:3px;
+    /* letter-spacing:3px; */
     transition: color .5s;
 }
 

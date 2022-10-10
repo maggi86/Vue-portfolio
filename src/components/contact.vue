@@ -91,6 +91,7 @@ body {
     width: 100%;
     max-width: 100%;
     padding-bottom: 70px;
+    background-image: url("https://i.postimg.cc/GpndwV4G/1544025-ddd4c.gif");
 }
 
 .title {
@@ -104,7 +105,7 @@ section {
 }
 
 * {
-    font-family: 'Raleway', sans-serif;
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -112,7 +113,7 @@ section {
 
 :root {
     --color-primary: #ef1e48;
-    --color-white: #e8e6e3;
+    --color-white: #aba8a482;
     --color-black: #030910;
     --color-dark: #642330;
     --color-gray: #9d8790;

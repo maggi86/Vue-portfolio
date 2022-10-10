@@ -82,15 +82,10 @@ export default{
 
 :root {
     --color-primary: #ef1e48;
-    --color-white: #e7e8e3;
+    --color-white: #aba8a482;
     --color-black: #000000;
     --color-dark: #642330;
     --color-gray: #c3c0c1;
-
-
-    --font-Poppins: 'Poppins', sans-serif;
-    --font-Raleway: 'Raleway', sans-serif;
-    --font-OpenSans: 'Open Sans', sans-serif;
 
     --font-lg: 64px;
     --font-xm: 45px;
@@ -111,6 +106,8 @@ export default{
   padding:20px;
   display:flex;
   justify-content: right;
+  margin-left:14%;
+  background-image: url("https://i.postimg.cc/GpndwV4G/1544025-ddd4c.gif");
 }
 * {
   box-sizing: border-box;
@@ -229,7 +226,11 @@ h2{
 .content > h3 {
   color:var(--color-primary);
 }
-/* Mediaqueries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width:1400px){
+  #resume{
+    margin-left:0px;
+  }
+}
 @media screen and (max-width: 735px) {
   /* Place the timelime to the left */
   .timeline::after {
