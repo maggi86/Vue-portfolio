@@ -43,7 +43,7 @@ export default createStore({
         name: "Ra'ees Benny",
         description: "Meagan is a great person to work with and be around with. When we were in a 4 person group she always brought the best out of all of us and that helped us finished the project. She is a great asset to have on a team and as a friend.",
         title: "~~ Colleague",
-        image:`https://i.postimg.cc/ZYvTvX57/Liam.png`
+        image:`https://i.postimg.cc/FKdBWwX8/Raees-2.jpg`
       }
     ],
     resume: {
