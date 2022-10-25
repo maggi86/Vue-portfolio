@@ -48,45 +48,53 @@ export default createStore({
     ],
     resume: {
       resume1:[
-       {
-         id: 1,
-         date: "2022 - Current",
-         title: "Life Choices Academy of Coding.",
-         description: "Where i started learning coding and Web Development."
-       },
-       {
-         id: 2,
-         date: "2019-2021",
-         title: "Oude Molen Academy of Science and Technology.",
-         description: "I studied Engineering Graphics and Design( EGD ) in High school."
-       },
-       {  
-         id: 3,
-         date: "2017 - 2021",
-         title: "Life Choices Academy of Coding.",
-         description: "Studied at High School in Pinelands and passed with a Bachalor's pass"
-       }
+        {
+          id: 1,
+          date: "September 2022 - Current",
+          title: "LC Studio.",
+          description: "Work as an intern where I up-skill my coding abilities"
+        },
+        {
+          id: 2,
+          date: "2020 - 2021",
+          title: "Oude Molen Academy of Science and Technology.",
+          description: "I studied Automotive Engineering for two years in High School."
+        },
+        {
+          id: 3,
+          date: "2019 - 2020",
+          title: "Oude Molen Academy of Science and Technology.",
+          description: "I studied Mechanical Engineering for a year in High School."
+        },
+        {
+          id: 4,
+          date: "2009 - 2016",
+          title: "Arcadia Primary School.",
+          description: "I attended primary school in Bonteheuwel."
+        }
+       
       ],
       
       resume2:[
-       {
-         id: 1,
-         date: "2020 - 2021",
-         title: "Oude Molen Academy of Science and Technology.",
-         description: "I studied Automotive Engineering for two years in High School."
-       },
-       {
-         id: 2,
-         date: "2019 - 2020",
-         title: "Oude Molen Academy of Science and Technology.",
-         description: "I studied Mechanical Engineering for a year in High School."
-       },
-       {
-         id: 3,
-         date: "2009 - 2016",
-         title: "Arcadia Primary School.",
-         description: "I attended primary school in Bonteheuwel."
-       }
+        {
+          id: 1,
+          date: "March 2022 - September 2022",
+          title: "Life Choices Academy of Coding.",
+          description: "Where I started learning coding and Web Development."
+        },
+        {
+          id: 2,
+          date: "2019-2021",
+          title: "Oude Molen Academy of Science and Technology.",
+          description: "I studied Engineering Graphics and Design( EGD ) in High school."
+        },
+        {  
+          id: 3,
+          date: "2017 - 2021",
+          title: "Oude Molen Academy of Science and Technology.",
+          description: "Studied at High School in Pinelands and passed with a Bachalor's pass"
+        }
+       
       ],
     },
    project:[

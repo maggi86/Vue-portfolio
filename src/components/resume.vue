@@ -169,7 +169,7 @@ p, small{
     color:var(--color-dark);
 }
 
-h2{
+h3{
     color: var(--color-dark);
     font-size:var(--font-md);
 }
