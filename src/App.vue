@@ -50,7 +50,7 @@ export default {
 }
 
 body{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Playfair Display', serif;
   /* font-weight:bold; */
   letter-spacing:1px;
   background-color: var(--color-white);

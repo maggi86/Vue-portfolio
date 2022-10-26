@@ -50,7 +50,7 @@ export default{
 }
 .card{
 	width: 240px;
-	height: 280px;
+	height: 320px;
 	 margin: 5px; 
 }
 /* .col{
@@ -88,7 +88,7 @@ body {
 	/* font-family: sans-serif; */
 }
 img{
-	height:200px;
+	height:250px;
 	width:240px
 }
 section{

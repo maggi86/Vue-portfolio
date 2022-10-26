@@ -163,7 +163,7 @@ h3{
   position: absolute;
   z-index: 100100;
   top:50%;
-  color:var(--color-white);
+  color:white;
   text-align: center;
   width: 100%;
   

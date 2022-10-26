@@ -78,7 +78,7 @@
     align-items: flex-end;
     padding-top:2%;
     right: 0;
-    color: var(--color-white);
+    color: white;
     position: absolute;
     z-index: 2;
 }
