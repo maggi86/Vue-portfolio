@@ -3,7 +3,7 @@
   <section id="resume">
       <div class="timeline">
         <div class="mmm">
-        <p class="lead text-center fw-bold"><span>R</span>ESUME</p>
+        <h1 class="lead text-center">RESUME</h1>
       </div>
         <div class="box left">
           <div class="content">
@@ -99,7 +99,18 @@ export default{
     --size-xs: 500px;
 }
 
-
+h1{
+  z-index:-1;
+  color:var(--color-dark);
+  text-align:center;
+  line-height: 90px;
+  font-size: var(--font-lg);
+  font-weight:var(--size-ms);
+  letter-spacing: 0em;
+  width: 95%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 #resume {
   scroll-margin: 100px;
   background-color: var(--color-white);

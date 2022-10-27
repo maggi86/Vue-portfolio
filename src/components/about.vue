@@ -31,27 +31,27 @@
         		<h3>SKILL STACK</h3>
         		<!-- <br> -->
         		<div class="row d-flex justify-content-center align-items-center flex-row">
-          		<div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+          		<div class="col rounded border border-1 p-3 me-5 mx-lg-5 my-3">
             		<img src="https://i.postimg.cc/gjnyV8Hb/7422531-css3-css-file-development-icon.png">
             		<p>CSS3</p>
           	  </div>
-          		<div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+          		<div class="col rounded border border-1 p-3 me-5 mx-lg-5 my-3">
             		<img src="https://i.postimg.cc/c4Ckh8LH/367627-html-html5-icon.png">
             		<p>HTML5</p>
           		</div>
-          		<div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+          		<div class="col rounded border border-1 p-3 me-5 mx-lg-5 my-3">
             		<img src="https://i.postimg.cc/Kj230WLb/8666135-bootstrap-icon.png">
             		<p>BOOTSTRAP</p>
           		</div>
-              <div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+              <div class="col rounded border border-1 p-3 me-5 mx-lg-5 my-3">
             		<img src="https://i.postimg.cc/wvnYz4Kr/4691303-mysql-icon.png">
             		<p>MYSQL</p>
           	  </div>
-          		<div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+          		<div class="col rounded border border-1 p-3 me-5 mx-lg-5 my-3">
             		<img src="https://i.postimg.cc/qvwCBSJg/8666390-js-square-icon.png">
             		<p>JAVASCRIPT</p>
           		</div>
-          		<div class="col-4  rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+          		<div class="col rounded border border-1 p-3 me-5 mx-lg-5 my-3">
             		<img src="https://i.postimg.cc/kgJBHsQC/9055767-bxl-vuejs-icon.png">
             		<p>VUE.JS</p>
           		</div>
@@ -231,9 +231,9 @@ h1{
   color:var(--color-dark);
   text-align:center;
   line-height: 90px;
-  font-size: var(--font-xlg);
+  font-size: var(--font-lg);
   font-weight:var(--size-ms);
-  letter-spacing: -0.1em;
+  letter-spacing: 0em;
   width: 95%;
   margin-bottom: 10px;
   margin-top: 10px;

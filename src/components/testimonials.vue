@@ -1,7 +1,7 @@
 <template>
-    <section class="text-black py-5" id="testimonials">
+    <section class="text-black py-1" id="testimonials">
     <div class="container">
-      <h2 class="section-title mx-auto text-center">
+      <h2 class="section-title mx-auto ms-5 ps-5 mx-5 text-center">
         <h1>Testimonial</h1>
       </h2>
       <br />
@@ -58,16 +58,19 @@
                 class="circle"
               ></button>
             </div>
-            <div class="carousel-inner pb-5">
+            <div class="card mx-auto pt-4">
+            <div class="carousel-inner">
+              
                 <div class="carousel-item" v-bind:class="{ active: index === 0 }" v-for="(people,index) in people" :key="index" >
                     <img
                   :src="people.image"
                   class="rounded-circle pt-2 pb-2"
                   alt=""
                 />
-                <p class="name">{{ people.name }}</p>
+                <h2 class="name">{{ people.name }}</h2>
                 <p class="description mx-auto">{{ people.description }}</p>
                 </div>
+              </div>
             </div>
           </div>
         </div>
@@ -112,11 +115,37 @@ export default{
 }
 #testimonials{
   /* background-color:var(--color-white); */
-  background-image: url("https://i.postimg.cc/GpndwV4G/1544025-ddd4c.gif");
+  background-image: url"https://i.postimg.cc/28JQ19XW/images.jpg";
 }
-/* .container{
-margin-left:100px;
-} */
+.container{
+padding-left:60px;
+background-image:url("https://i.postimg.cc/GpndwV4G/1544025-ddd4c.gif");
+}
+.card{
+  height:560px;
+  width:400px;
+  margin-bottom:50px;
+}
+h1{
+  z-index:-1;
+  color:var(--color-dark);
+  text-align:center;
+  line-height: 90px;
+  font-size: var(--font-lg);
+  font-weight:var(--size-ms);
+  letter-spacing: 0em;
+  width: 95%;
+  /* margin-bottom: 10px;
+  margin-top: 10px; */
+}
+h2{
+  z-index:-1;
+  color:var(--color-dark);
+  text-align:center;
+  font-weight:var(--size-ms);
+  font-size: var(--font-lg);
+
+}
 .carousel-inner img{
   aspect-ratio: 1;
   object-fit: cover;

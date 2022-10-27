@@ -6,9 +6,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="heading text-center">
-                            <h2>Contact
+                            <h1>Contact
                                 <span> Me </span>
-                            </h2>
+                            </h1>
                             <p>I'd love to hear from you!
                                 FEEL FREE TO CONTACT ME! </p>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -150,21 +150,26 @@ section {
     color: var(--color-primary)
 }
 
-.contact .heading p {
-    font-size: var(--font-sm);
-    font-weight: var(--size-xs);
-    line-height: 1.7;
+.contact .heading h1{
     color: var(--color-dark);
-    margin: 20px 0 60px;
-    padding: 0;
+    margin: 10px 50px 20px;
+  z-index:-1;
+  color:var(--color-dark);
+  text-align:center;
+  line-height: 90px;
+  font-size: var(--font-lg);
+  font-weight:var(--size-ms);
+  letter-spacing: 0em;
+  width: 95%;
+  /* margin-bottom: 10px; */
+  /* margin-top: 10px; */
 }
-
 .contact .form-control {
     padding: 25px;
     font-size: var(--font-sm);
     margin-bottom: 10px;
     margin: 10px;
-    background: white;
+    background: rgb(230, 230, 230);
     border: 0;
     border-radius: 10px;
 }
@@ -174,7 +179,7 @@ section {
     border-radius: 10px;
     font-size: var(--font-sm);
     background: var(--color-gray);
-    color: var(--color-white);
+    color:rgb(78, 76, 76);
 }
 
 .contact .title h3 {
@@ -218,7 +223,7 @@ i {
 .contact .content .info h4 span {
     font-size: var(--font-sm);
     font-weight: var(--size-mi);
-    color: var(--color-gray);
+    color: rgb(78, 76, 76);
 }
 
 .btn {

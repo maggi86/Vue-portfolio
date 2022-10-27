@@ -1,6 +1,6 @@
 <template>
 <section>
-	<h2 class="text-center py-5 mb-5">Projects</h2>
+	<h1 class="text-center py-5 ">Projects</h1>
 	<div class="container" id="project">
 	
     
@@ -46,7 +46,7 @@ export default{
 <style scoped>
 .container{
 	/* justify-content: center; */
-    margin-left: 260px;
+    padding-left: 260px;
 }
 .card{
 	width: 240px;
@@ -88,7 +88,7 @@ body {
 	/* font-family: sans-serif; */
 }
 img{
-	height:250px;
+	height:200px;
 	width:240px
 }
 section{
@@ -126,7 +126,7 @@ background: var(--color-white);
 .container .card .details {
 	position: absolute;
 	width: 100%;
-	height: 140px;
+	height: 160px;
 	overflow: hidden;
 }
 
@@ -157,6 +157,18 @@ background: var(--color-white);
 	background: var(--color-gray);
 }
 
+h1{
+  z-index:-1;
+  color:var(--color-dark);
+  text-align:center;
+  line-height: 80px;
+  font-size: var(--font-lg);
+  font-weight:var(--size-ms);
+  letter-spacing: 0em;
+  width: 100%;
+  /* margin-bottom: 10px; */
+  /* margin-top: 10px; */
+}
 .container .card .details .content {
 	position: absolute;
 	top: calc(50% + 16px);
