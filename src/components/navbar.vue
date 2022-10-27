@@ -198,7 +198,7 @@ h3{
     margin: 0 2px;
     border-radius: 50%;
     background-color: var(--color-dark);
-    color: var(--color-white);
+    color: white;
     font-size: var(--font-sm);
     transition: background-color .5s;
 }

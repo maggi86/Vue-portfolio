@@ -231,9 +231,9 @@ h1{
   color:var(--color-dark);
   text-align:center;
   line-height: 90px;
-  font-size: var(--font-lg);
+  font-size: var(--font-xlg);
   font-weight:var(--size-ms);
-  letter-spacing: 0em;
+  letter-spacing: -0.1em;
   width: 95%;
   margin-bottom: 10px;
   margin-top: 10px;

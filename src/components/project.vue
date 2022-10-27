@@ -1,6 +1,6 @@
 <template>
 <section>
-	<h1 class="text-center py-5 ">Projects</h1>
+	<h1 class="text-center py-5 mb-5">Projects</h1>
 	<div class="container" id="project">
 	
     
@@ -8,7 +8,7 @@
             <!-- <div class="col-md-12"> -->	
                 
                  <div class="row" > 
-                <div class="col mx-auto mx-5 px-5" v-for="project in projects" :key="project"> 
+                <div class="col mx-auto" v-for="project in projects" :key="project"> 
 					<div class="card"  >
 	
 						<div class="img">
@@ -88,8 +88,20 @@ body {
 	/* font-family: sans-serif; */
 }
 img{
-	height:200px;
+	height:250px;
 	width:240px
+}
+h1{
+  z-index:-1;
+  color:var(--color-dark);
+  text-align:center;
+  line-height: 90px;
+  font-size: var(--font-lg);
+  font-weight:var(--size-ms);
+  letter-spacing: 0em;
+  width: 95%;
+  /* margin-bottom: 10px;
+  margin-top: 10px; */
 }
 section{
 background: var(--color-white);
@@ -102,7 +114,7 @@ background: var(--color-white);
 	transform: translate(-50%, -50%); */
 	display: flex;
 	width: 100%;
-    margin-bottom: 59px;
+    padding-bottom: 59px;
 	
 	/* margin-bottom: 130px; */
 	/* width: 1000px; */
@@ -126,7 +138,7 @@ background: var(--color-white);
 .container .card .details {
 	position: absolute;
 	width: 100%;
-	height: 160px;
+	height: 140px;
 	overflow: hidden;
 }
 
@@ -157,18 +169,6 @@ background: var(--color-white);
 	background: var(--color-gray);
 }
 
-h1{
-  z-index:-1;
-  color:var(--color-dark);
-  text-align:center;
-  line-height: 80px;
-  font-size: var(--font-lg);
-  font-weight:var(--size-ms);
-  letter-spacing: 0em;
-  width: 100%;
-  /* margin-bottom: 10px; */
-  /* margin-top: 10px; */
-}
 .container .card .details .content {
 	position: absolute;
 	top: calc(50% + 16px);
@@ -216,20 +216,20 @@ h1{
 }
 
 /*media queries */
-@media (max-width: 900px) {
-	.container .card{
-        position: relative;
-    }
+@media (max-width: 992px) {
+	.container {
+		padding-left:10%;
+	}
 }
 @media screen and (max-width:1400px){
 .container{
-	margin-left:8%;
+	padding-left:3%;
 }
 }
 @media screen and (max-width:1300px){
 	.container{
 		display:grid;
-		margin-left: 60px;
+		padding-left: 60px;
 	}
 	img{
 	height:200px;

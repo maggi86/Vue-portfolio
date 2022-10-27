@@ -91,7 +91,7 @@ body {
     width: 100%;
     max-width: 100%;
     padding-bottom: 70px;
-    background-image: url("https://i.postimg.cc/GpndwV4G/1544025-ddd4c.gif");
+    /* background-image: url("https://i.postimg.cc/ncxdzHT6/Ed-Edd-n-Eddy-by-themico-on-Deviant-Art-2.jpg"); */
 }
 
 .title {

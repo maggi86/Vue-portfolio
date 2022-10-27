@@ -37,12 +37,21 @@
                 </div>
             </div>
         </aside> -->
-        <main class="container-fluid" style="height: 100vh">
+        <main class="container-fluid">
         <div class="landing mx-auto text-center">
             <h2>
                 <span class="caps">W</span>ELCOME TO MY PORTFOLIO
             </h2>
         </div>
+
+        <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <img id="deadpool" src="https://i.postimg.cc/VNbqZtLr/This-is-an-image-of-deadpool-laying-down-Source-google-images-CMYK-colour-Resolution-300ppi.png" style="height:100%; width:100%">
+        </div>
+    </div>
+</div>
+
         </main>
     </div>
 </template>
@@ -65,20 +74,27 @@
     --size-sm: 768px;
     --size-xs: 500px;
 }
+main{
+    
+    /* padding-left:200px; */
+}
 
+#deadpool{
+    position: relative;
+    /* left: 3rem; */
+}
 .container-fluid {
     width: 100%;
     height: 100%;
-    background: url("https://i.postimg.cc/Mpfs3x2r/93eBhV.jpg") no-repeat;
-
-    background-size: cover;
+    background-color: white;
+    /* background-size: cover; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     padding-top:2%;
     right: 0;
-    color: white;
+    color: var(--color-dark);
     position: absolute;
     z-index: 2;
 }

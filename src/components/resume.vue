@@ -99,18 +99,7 @@ export default{
     --size-xs: 500px;
 }
 
-h1{
-  z-index:-1;
-  color:var(--color-dark);
-  text-align:center;
-  line-height: 90px;
-  font-size: var(--font-lg);
-  font-weight:var(--size-ms);
-  letter-spacing: 0em;
-  width: 95%;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
+
 #resume {
   scroll-margin: 100px;
   background-color: var(--color-white);
@@ -124,7 +113,15 @@ h1{
   box-sizing: border-box;
   
 }
-
+h1{
+  z-index:-1;
+  color:var(--color-dark);
+  text-align:center;
+  line-height: 90px;
+  font-size: var(--font-lg);
+  font-weight:var(--size-ms);
+  letter-spacing: 0em;
+  width: 95%;}
 .mmm p{
   font-size: var(--font-md);
 }

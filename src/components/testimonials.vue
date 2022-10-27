@@ -5,7 +5,7 @@
         <h1>Testimonial</h1>
       </h2>
       <br />
-      <section id="testimonials" class="vh-80">
+      <section id="testimonial" class="vh-80">
         <div class="container text-center
         ">
           <div
@@ -115,16 +115,21 @@ export default{
 }
 #testimonials{
   /* background-color:var(--color-white); */
-  background-image: url"https://i.postimg.cc/28JQ19XW/images.jpg";
+  /* background-image: url("https://i.postimg.cc/GpcYFGFP/wallpaperflare-com-wallpaper.jpg"); */
+   /* background-repeat:no-repeat; */
+  background-size: cover; 
 }
 .container{
 padding-left:60px;
-background-image:url("https://i.postimg.cc/GpndwV4G/1544025-ddd4c.gif");
+/* background-image:url("https://i.postimg.cc/GpndwV4G/1544025-ddd4c.gif"); */
 }
 .card{
   height:560px;
   width:400px;
   margin-bottom:50px;
+  background-color:white;
+
+
 }
 h1{
   z-index:-1;
