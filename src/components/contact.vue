@@ -31,7 +31,19 @@
                                         <br>+27 81 496 3622</span>
                                 </h4>
                             </div></div>
-                        
+                            <div class="row">
+                            <div class="info">
+                                <i class="bi bi-envelope"></i>
+                                <h4 class="d-inline-block ms-5">CV :
+                                    <br>
+                                    <a 
+                                    href="https://drive.google.com/uc?export=download&id=1fyfdg9sg9hOnubwN9wKrxpiGA3ZgH4Er" 
+                                    height="50px" 
+                                    with="60px" 
+                                    downlaod>Download CV</a>
+                                </h4>
+                            </div>
+                        </div>
                             <div class="row">
                             <div class="info">
                                 <i class="bi bi-envelope"></i>
