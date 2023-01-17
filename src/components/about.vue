@@ -55,6 +55,15 @@
             		<img src="https://i.postimg.cc/kgJBHsQC/9055767-bxl-vuejs-icon.png">
             		<p>VUE.JS</p>
           		</div>
+              <div class="col rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+            		<img src="https://i.postimg.cc/pTnFmT9b/icons8-wordpress-24.png">
+            		<p>WORDPRESS</p>
+          		</div>
+              <div class="col rounded border border-1 p-3 me-5 mx-lg-5 my-3">
+            		<img src="https://i.postimg.cc/3rcqMbhk/icons8-php-logo-100.png">
+            		<p>PHP</p>
+          		</div>
+              
         		</div>
       		</div>
     	  </div>
