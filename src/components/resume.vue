@@ -59,7 +59,43 @@
             <p>{{resume2[2].description}}</p>
           </div>
         </div>
+        <div class="box left">
+          <div class="content">
+            <h3>{{resume1[3].date}}</h3>
+            <small>
+              {{resume1[3].title}}
+            </small>
+            <p>{{resume1[3].description}}</p>
+          </div>
+        </div>
+        <div class="box right">
+          <div class="content">
+            <h3>{{resume2[3].date}}</h3>
+            <small>
+              {{resume2[3].title}}
+            </small>
+            <p>{{resume2[3].description}}</p>
+          </div>
+        </div>
       </div>
+      <div class="box left">
+          <div class="content">
+            <h3>{{resume1[4].date}}</h3>
+            <small>
+              {{resume1[4].title}}
+            </small>
+            <p>{{resume1[4].description}}</p>
+          </div>
+        </div>
+        <div class="box right">
+          <div class="content">
+            <h3>{{resume2[4].date}}</h3>
+            <small>
+              {{resume2[4].title}}
+            </small>
+            <p>{{resume2[4].description}}</p>
+          </div>
+        </div>
     </section>
 </body>
 </template>
