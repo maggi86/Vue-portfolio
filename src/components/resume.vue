@@ -87,15 +87,6 @@
             <p>{{resume1[4].description}}</p>
           </div>
         </div>
-        <div class="box right">
-          <div class="content">
-            <h3>{{resume2[4].date}}</h3>
-            <small>
-              {{resume2[4].title}}
-            </small>
-            <p>{{resume2[4].description}}</p>
-          </div>
-        </div>
     </section>
 </body>
 </template>
@@ -173,7 +164,7 @@ div .timeline{
 
 .timeline {
   position: relative;
-  max-width: 1500px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 /* The actual timeline (the vertical ruler) */
