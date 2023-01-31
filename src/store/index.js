@@ -50,24 +50,30 @@ export default createStore({
       resume1:[
         {
           id: 1,
+          date: "January 2023 - Current",
+          title: "Tenacious Digital",
+          description: "Doing a learning journey and doing pair-programming with junior developers"
+        },
+        {
+          id: 2,
           date: "September 2022 - Current",
           title: "LC Studio.",
           description: "Work as an intern where I up-skill my coding abilities"
         },
         {
-          id: 2,
+          id: 3,
           date: "2020 - 2021",
           title: "Oude Molen Academy of Science and Technology.",
           description: "I studied Automotive Engineering for two years in High School."
         },
         {
-          id: 3,
+          id: 4,
           date: "2019 - 2020",
           title: "Oude Molen Academy of Science and Technology.",
           description: "I studied Mechanical Engineering for a year in High School."
         },
         {
-          id: 4,
+          id: 5,
           date: "2009 - 2016",
           title: "Arcadia Primary School.",
           description: "I attended primary school in Bonteheuwel."
@@ -78,18 +84,24 @@ export default createStore({
       resume2:[
         {
           id: 1,
+          date: "January 2023 - current",
+          title: "Ignite Event Services.",
+          description: "I worked as a waiter at a Catering Company"
+        },
+        {
+          id: 2,
           date: "March 2022 - September 2022",
           title: "Life Choices Academy of Coding.",
           description: "Where I started learning coding and Web Development."
         },
         {
-          id: 2,
+          id: 3,
           date: "2019-2021",
           title: "Oude Molen Academy of Science and Technology.",
           description: "I studied Engineering Graphics and Design( EGD ) in High school."
         },
         {  
-          id: 3,
+          id: 4,
           date: "2017 - 2021",
           title: "Oude Molen Academy of Science and Technology.",
           description: "Studied at High School in Pinelands and passed with a Bachalor's pass"
