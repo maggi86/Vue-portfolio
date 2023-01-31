@@ -173,7 +173,7 @@ div .timeline{
 
 .timeline {
   position: relative;
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 /* The actual timeline (the vertical ruler) */
