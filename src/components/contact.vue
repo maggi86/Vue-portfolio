@@ -4,7 +4,7 @@
         <section class="contact" id="contact">
             <div class="container  mx-auto text-center d-flex justify-content-center">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col">
                         <div class="heading text-center">
                             <h1>Contact
                                 <span> Me </span>

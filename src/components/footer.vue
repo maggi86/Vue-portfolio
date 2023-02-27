@@ -44,4 +44,7 @@
   position: fixed;
   z-index: 10;
 }
+p{
+  font-size:12px;
+}
 </style>

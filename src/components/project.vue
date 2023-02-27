@@ -1,7 +1,7 @@
 <template>
 <section>
 	<h1 class="text-center py-5 mb-5">Projects</h1>
-	<div class="container" id="project">
+	<a class="container" id="project">
 	
     
         <!-- <div class="row mx-auto"> -->
@@ -9,8 +9,8 @@
                 
                  <div class="row" > 
                 <div class="col mx-auto" v-for="project in projects" :key="project"> 
-					<div class="card"  >
-	
+					<div class="card" :href="project.netlify" >
+
 						<div class="img">
                     <img :src="project.image">
                         </div>
@@ -19,14 +19,12 @@
                         <h3>{{project.name}}</h3>
                         <a :href="project.github"><i class="bi bi-github"></i>
                         </a>
-                        <a :href="project.netlify"><span class="iconify" data-icon="file-icons:netlify"></span>
-                        </a>
                     </div>
                 </div>
 			</div>
 			</div>
                 </div>
-            </div>
+            </a>
         <!-- </div>
     </div> -->
 
@@ -142,11 +140,6 @@ background: var(--color-white);
 	overflow: hidden;
 }
 
-.container .card:nth-child(odd) .img,
-.container .card:nth-child(even) .details  {
-	bottom: 0;
-	left: 0;
-}
 
 .container .card .thumb img {
 	width: 100%;
@@ -157,17 +150,6 @@ background: var(--color-white);
 	background: var(--color-dark);
 }
 
-.container .card:nth-child(1) .details {
-	background: var(--color-gray);
-}
-
-.container .card:nth-child(3) .details {
-	background: var(--color-gray);
-}
-
-.container .card:nth-child(5) .details {
-	background: var(--color-gray);
-}
 
 .container .card .details .content {
 	position: absolute;
